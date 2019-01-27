@@ -1,3 +1,8 @@
+Fork note
+=========
+
+This fork has made the migration from iwconfig to iw. iwconfig is now considered deprecated by many users and cannot be found on certain distributions. I will soon also migrate ifconfig to ip.
+
 Wifite
 ======
 
@@ -29,7 +34,7 @@ Second, only the latest versions of these programs are supported and must be ins
 **Required:**
 
 * `python`: Wifite is compatible with both `python2` and `python3`.
-* [`iwconfig`](https://wiki.debian.org/iwconfig): For identifying wireless devices already in Monitor Mode.
+* [`iw`](https://wireless.wiki.kernel.org/en/users/documentation/iw): For identifying wireless devices already in Monitor Mode.
 * [`ifconfig`](https://en.wikipedia.org/wiki/Ifconfig): For starting/stopping wireless devices.
 * [`Aircrack-ng`](http://aircrack-ng.org/) suite, includes:
    * [`airmon-ng`](https://tools.kali.org/wireless-attacks/airmon-ng): For enumerating and enabling Monitor Mode on wireless devices.
