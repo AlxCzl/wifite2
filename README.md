@@ -1,7 +1,8 @@
 Fork note
 =========
 
-This fork has made the migration from iwconfig to iw. iwconfig is now considered deprecated by many users and cannot be found on certain distributions. I will soon also migrate ifconfig to ip.
+This fork has made the migration from the deprecated iwconfig and ifconfig to iw and ip.
+I also added an option to disable monitor mode on the wifi antenna after wifite quits.
 
 Wifite
 ======
